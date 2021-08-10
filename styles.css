@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #202124;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Georama', sans-serif;
+    font-weight: 400;
+    font-size: 1,2em;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    height: 9vh;
+    /* margin-top: 20px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-right: 1em;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 70vh;
+}
+
+main > * {
+    margin-top: 2em;
+}
+.logo {
+    height: auto;
+   width: 350px; 
+}
+
+.search-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 700px;
+    border: 1px solid gray;
+    padding: 5px 8px 8px 14px;
+    border-radius: 100px;
+}
+
+
+.search-container img {
+    padding-right: 13px;
+}
+
+
+.search-bar {
+    width: 95%;
+    height: 34px;
+    background-color: #202124;
+   border: none;
+   color: #e8eaed;
+   font-size: 1.3em;
+}
+.search-bar:focus {
+    outline: none;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+}
+
+.buttons > * {
+    width: auto;
+    color: white;
+    padding: 1em 1.3em;
+    background-color: #303134;
+    border: none;
+    border-radius:7px;
+    margin-right: 1em;
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.buttons > *:hover {
+    border: 1px solid #bdc1c6;
+}
+
+.lang span {
+    color: #bdc1c6;
+    font-size: 1em;
+}
+
+.lang a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303134;
+    padding: 15px 30px;
+    height: 45px;
+    flex-wrap: wrap;
+}
+
+footer .left a ,.right  a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
